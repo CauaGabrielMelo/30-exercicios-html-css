@@ -1,0 +1,162 @@
+/* cores da marca, deixei aqui em cima pra lembrar facil */
+/* verde: #4CAF7A | amarelo: #FFD447 | fundo: #FFF9EC | texto: #3B2B20 */
+
+body {
+    margin: 0;
+    font-family: 'Nunito', Arial, sans-serif;
+    background-color: #FFF9EC;
+    color: #3B2B20;
+}
+
+h1,
+h2 {
+    font-family: 'Fredoka', Arial, sans-serif;
+}
+
+/* MENU - seletor por elemento (header) */
+header {
+    background-color: #4CAF7A;
+    padding: 15px 30px;
+    border-bottom: 4px solid #FFD447;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-area img {
+    height: 45px;
+}
+
+.logo-area span {
+    font-family: 'Fredoka', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD447;
+}
+
+/* HERO - seletor por ID, so tem um na pagina */
+#hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #E9F7EF;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* botao usado em varios lugares do site, por isso é uma classe */
+.botao {
+    display: inline-block;
+    background-color: #FFD447;
+    color: #3B2B20;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.botao:hover {
+    background-color: #ffc61a;
+}
+
+/* PILARES (missao visao valores) */
+#pilares {
+    display: flex;
+    gap: 20px;
+    padding: 40px 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #4CAF7A;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+/* DESTAQUE, ACOES, SOBRE, CONTATO - secoes de conteudo em geral */
+#destaque,
+#acoes,
+#conteudo-sobre,
+#conteudo-contato {
+    padding: 40px 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid #4CAF7A;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF7A;
+    color: white;
+}
+
+button {
+    background-color: #4CAF7A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3d8f63;
+}
+
+footer {
+    background-color: #3B2B20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #FFD447;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nativa Comics - Inicio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- menu, igual em todas as paginas -->
+    <header>
+        <nav>
+            <div class="logo-area">
+                <img src="images/logo.png" alt="Logo Nativa Comics, uma preguica abracada nas letras N e C">
+                <span>Nativa Comics</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero, primeira coisa que a pessoa ve -->
+    <section id="hero">
+        <h1>Todo autor merece ser lido</h1>
+        <p>A Nativa Comics é uma ONG que da espaco pra quadrinhistas brasileiros que ainda ninguem conhece.</p>
+        <a href="sobre.html" class="botao">Conheca nossa historia</a>
+    </section>
+
+    <!-- missao visao e valores, uso de classe pra repetir o card 3x -->
+    <section id="pilares">
+        <div class="card">
+            <h2>Missao</h2>
+            <p>Ampliar o mercado de historias em quadrinhos nacional.</p>
+        </div>
+        <div class="card">
+            <h2>Visao</h2>
+            <p>Fazer com que o mercado nacional de comics seja reconhecido mundialmente.</p>
+        </div>
+        <div class="card">
+            <h2>Valores</h2>
+            <p>Confianca, independencia, visibilidade, inclusao e diversao.</p>
+        </div>
+    </section>
+
+    <!-- destaque de um autor apoiado, exemplo pra mostrar o trabalho da ong -->
+    <section id="destaque">
+        <h2>Autor em destaque</h2>
+        <p>Esse mes a gente ta destacando o trabalho de Ravi Cairu, autor de "Tempos de Guerra Vol. 1".</p>
+
+        <table>
+            <tr>
+                <th>Obra</th>
+                <th>Autor</th>
+                <th>Genero</th>
+            </tr>
+            <tr>
+                <td>Tempos de Guerra: Vol. 1</td>
+                <td>Ravi Cairu</td>
+                <td>Ficcao cientifica</td>
+            </tr>
+        </table>
+
+        <!-- botao com interacao via javascript-->
+        <button id="btnApoiar">Apoiar esse autor</button>
+        <p id="mensagemApoio"></p>
+    </section>
+
+    <!-- lista rapida do que a ong faz -->
+    <section id="acoes">
+        <h2>O que a gente faz</h2>
+        <ul>
+            <li>Divulga autores independentes nas redes sociais</li>
+            <li>Ajuda com revisao e diagramacao das obras</li>
+            <li>Conecta autores com graficas parceiras</li>
+            <li>Organiza feiras de quadrinhos locais</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Nativa Comics &copy; 2026. Saiba mais no <a href="https://www.instagram.com" target="_blank">Instagram</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

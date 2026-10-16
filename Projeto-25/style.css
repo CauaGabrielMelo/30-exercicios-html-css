@@ -1,0 +1,37 @@
+/* SELETOR POR ELEMENTO -> pega todo mundo que for <p>, sem excecao */
+p {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* SELETOR POR ID -> só pega o elemento com id="titulo-principal", que só existe UM na pagina */
+#titulo-principal {
+    color: darkred;
+    text-align: center;
+}
+
+/* SELETOR POR CLASSE -> pega qualquer elemento que tenha class="cartao", pode ter varios */
+.cartao {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* essa classe extra so entra nos elementos que tem AMBAS as classes, cartao e destaque */
+.destaque {
+    background-color: lightyellow;
+    border: 2px solid orange;
+}
+
+/* SELETOR AGRUPADO -> aplica o mesmo estilo pro h1 e h2 de uma vez, sem repetir codigo */
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+/* estilizando a lista, só pra ficar visualmente diferente do resto */
+ul {
+    background-color: #e8f4ff;
+    padding: 15px 30px;
+}

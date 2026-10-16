@@ -1,0 +1,45 @@
+/* estilo base de todas as secoes, so pra dar um respiro visual */
+.secao {
+    padding: 60px 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* SECAO 1: cor solida de fundo, simples */
+.cor-solida {
+    background-color: darkslateblue;
+}
+
+.imagem-fundo {
+    background-image: url("images/rpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-shadow: 1px 1px 4px black;
+}
+
+
+.imagem-repetida {
+    background-image: url("images/images.jpg");
+    background-repeat: repeat;
+    background-position: top left;
+
+
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.capa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/images\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+}
+
+.capa h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}

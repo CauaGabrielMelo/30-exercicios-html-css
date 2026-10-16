@@ -1,0 +1,28 @@
+/* essa regra pega o titulo principal (h1) e deixa ele maior e centralizado */
+h1 {
+    color: darkred;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* aqui é o subtitulo (h2), deixei mais cinza e um pouco mais fino */
+h2 {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* essa regra pega tods os paragrafos da pagina, entao todo mundo fica com essa fonte */
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+
+/* aqui eu uso uma classe (.destaque) pra estilizar só o paragrafo que tem class="destaque" */
+.destaque {
+    background-color: lightyellow;
+    font-weight: bold;
+    border: 1px solid orange;
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.card {
+    /* padding = respiro dentro do card entre a borda e o texto */
+    padding: 20px;
+
+    /* margin = distancia entre um card e outro */
+    margin: 15px auto;
+
+    /* borda simples com cantos arredondados */
+    border: 2px solid #333;
+    border-radius: 10px;
+
+    background-color: white;
+    max-width: 300px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: darkslateblue;
+}
+
+.card button {
+    /* padding do botao, deixa ele mais "clicavel" */
+    padding: 8px 16px;
+
+    /* espaco acima do botao pra nao grudar no texto */
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    color: white;
+    cursor: pointer;
+}

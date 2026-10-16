@@ -1,0 +1,50 @@
+/* estilo base pra todos os blocos ficarem do mesmo tamanho e com o texto legivel */
+.bloco {
+    width: 250px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* cor por NOME */
+.cor1 {
+    background-color: red;
+}
+
+.cor2 {
+    background-color: skyblue;
+}
+
+/* cor por HEXADECIMAL */
+.cor3 {
+    background-color: #ff5733;
+}
+
+.cor4 {
+    background-color: #33ff99;
+}
+
+/* cor por RGB */
+.cor5 {
+    background-color: rgb(102, 51, 153);
+}
+
+.cor6 {
+    background-color: rgb(0, 128, 128);
+}
+
+/* cor por RGBA, repara que esses dois vao ficar meio transparentes por causa do ultimo valor */
+.cor7 {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+.cor8 {
+    background-color: rgba(0, 0, 255, 0.6);
+}

@@ -1,0 +1,32 @@
+/* correcao 1: adicionei o ; que faltava depois do color */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* correcao 2: corrigi o nome da propriedade, era "backgroud-color" e o certo é "background-color" */
+body {
+    background-color: lightyellow;
+    font-size: 18px;
+}
+
+/* correcao 3: fechei a chave que tinha ficado aberta */
+p {
+    color: gray;
+    line-height: 1.5;
+}
+
+/* correcao 4: adicionei o ponto na frente pra virar seletor de classe de verdade */
+.destaque {
+    font-weight: bold;
+}
+
+/* correcao 5: troquei "20 pixels" por "20px", que é a unidade certa e sem espaco */
+h2 {
+    font-size: 20px;
+}
+
+/* correcao 6: adicionei a cerquilha na frente pra virar seletor de id de verdade */
+#titulo-principal {
+    color: red;
+}

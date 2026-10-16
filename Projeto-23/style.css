@@ -1,0 +1,17 @@
+/* estilizando o titulo */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* estilizando o fundo da pagina toda */
+body {
+    background-color: lightyellow;
+    font-size: 18px;
+}
+
+/* deixando os botoes com uma cara melhor */
+button {
+    font-size: 16px;
+    margin: 5px;
+}

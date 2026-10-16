@@ -1,0 +1,31 @@
+/* erro 1: falta um ; no final da linha do color */
+h1 {
+    color: darkblue
+    text-align: center;
+}
+
+/* erro 2: propriedade escrita errado, o certo é "background-color" */
+body {
+    backgroud-color: lightyellow;
+    font-size: 18px;
+}
+
+/* erro 3: falta fechar a chave desse seletor */
+p {
+    color: gray;
+    line-height: 1.5;
+
+/* erro 4: seletor de classe sem o ponto na frente, assim ele nao funciona */
+destaque {
+    font-weight: bold;
+}
+
+/* erro 5: valor invalido pro font-size, nao existe unidade "pixels" */
+h2 {
+    font-size: 20 pixels;
+}
+
+/* erro 6: seletor de id sem a cerquilha na frente */
+titulo-principal {
+    color: red;
+}
